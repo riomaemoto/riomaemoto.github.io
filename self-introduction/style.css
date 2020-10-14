@@ -1,0 +1,46 @@
+body{
+	margin: 0px;
+}
+
+.header{
+	background-color: black;
+	padding: 1px 20px;
+
+}
+
+.header p {
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+.info {
+	font-size: 20px;
+	padding-left: 20px;
+	text-align: center;
+	background-color: #F3F2EB;
+	padding: 1px 20px;
+}
+
+.movie {
+	padding-left: 20px
+	background-color: green;
+}
+
+h2 {
+	text-align: center;
+}
+
+p{
+	text-align: center;
+}
+
+.img1{
+	text-align: center;
+}
+
+.img2{
+	text-align: center;
+}
