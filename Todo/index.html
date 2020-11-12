@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./assets/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <script src="https://kit.fontawesome.com/ea16a6c69f.js" crossorigin="anonymous"></script>
 </head>
@@ -11,12 +12,22 @@
     <div class="container">
             <h1>Leo's Todo List</h1>
             <form>
-                <input type="text" id="input" placeholder="Enter Task      0:00~0:00 ">
-                <input type="button" id="btn" value="Add">
+                <input type="text" id="input" placeholder="Enter Task    0:00~0:00 ">
+                <input type="button" id="bucket-button" value="&#xf022; " class="fas">
+                <input type="button" id="todo-button" value="&#xf274; " class="fas">
+                <!-- valueにfontawesome使いたいときは"&#x コード;文字" class="fas"が必要 -->
             </form>
-            <ul class="todo-list">
+            <ul class="list">
+
+                <div class="bucket">
+                <li class="bucket-list">Bucket List</li>
+                </div>
+
+                <div class="todo">
+                <li class="todo-list">todo List</li>
+                </div>
                 <!-- ここに要素が追加されていく -->
-                <li class="list"><input id='label-1' type='checkbox'>英単語10個勉強する
+              <!--   <li class="list"><input id='label-1' type='checkbox'>英単語10個勉強する
                     <div class="delete"><i class="far fa-trash-alt"></i></div>
                 </li>
                 <li class="list"><input id='label-1' type='checkbox'>マラソン5キロ
@@ -45,7 +56,7 @@
                 </li>
                 <li class="list"><input id='label-1' type='checkbox'>マラソン5キロ
                     <div class="delete"><i class="far fa-trash-alt"></i></div>
-                </li>
+                </li> -->
 
             </ul>
     </div>
